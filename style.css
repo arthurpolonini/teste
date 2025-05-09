@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+li {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+#include <stdio.h>
+
+int main() {
+    int v[5];
+    float m;
+
+    v[0] = 50;
+    v[1] = 40;
+    v[2] = 30;
+    v[3] = 20;
+    v[4] = 10;
+
+    m = (v[0] + v[1] + v[2] + v[3] + v[4]) / 5;
+    printf("Resultado: %.2f\n", m);
+
+    return 0;
+}
